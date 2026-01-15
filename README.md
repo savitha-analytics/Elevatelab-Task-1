@@ -1,70 +1,94 @@
-# Elevatelab-Task-1
+#Elevate Lab- Task 1 
 
-Task 1: Dataset Understanding & Data Type Analysis
-Internship Assignment – Data Analysis Fundamentals
-📌 Overview
-This repository contains the submission for Task 1, which focuses on exploring and understanding a dataset before applying Machine Learning techniques. The task emphasizes Exploratory Data Analysis (EDA), identification of data types, and evaluation of data quality and ML readiness.
-📁 Dataset Information
-Dataset Name: Titanic Dataset
-Description:
-The Titanic dataset consists of passenger-related details such as age, gender, passenger class, fare, and survival outcome. It is a benchmark dataset commonly used to understand data analysis and machine learning fundamentals.
-🛠 Tools & Technologies
-Python
-Pandas
-NumPy
-Jupyter Notebook / Google Colab
-GitHub
-🎯 Task Objectives
-The primary goals of this task are to:
-Explore the dataset structure and dimensions
-Identify different types of features (numerical, categorical, ordinal, binary)
-Analyze data types, missing values, and summary statistics
-Identify the target variable and input features
-Assess the dataset’s suitability for Machine Learning
-🔍 Methodology
-The analysis was carried out using the following steps:
-Loaded the dataset using Pandas
-Viewed the first and last few rows to understand data layout
-Checked dataset shape (number of rows and columns)
-Categorized features into:
-Numerical
-Categorical
-Binary
-Ordinal (where applicable)
-Used df.info() to inspect:
-Data types
-Missing values
-Used df.describe() to obtain statistical summaries
-Analyzed unique values in categorical columns
-Identified the target variable and input features
-Examined class distribution of the target variable
-Recorded data quality issues and overall observations
-🎯 Target Variable
-Column Name: Survived
-Type: Binary Classification
-0 → Did not survive
-1 → Survived
-📌 Key Findings
-The dataset contains both numerical and categorical features
-Missing values exist in columns such as Age and Cabin
-The target variable shows class imbalance
-Dataset size is suitable for beginner to intermediate ML experiments
-Data preprocessing is necessary before model training
-🤖 Machine Learning Readiness
-The dataset is ML-ready after preprocessing, which includes:
-Handling missing values
-Encoding categorical variables
-Feature scaling (if required)
-Managing class imbalance
-📂 Repository Structure
-Copy code
+
+# Task 1: Dataset Understanding & Data Type Analysis  
+**Internship Assignment – Data Analysis Fundamentals**
+
+## 📌 Overview
+This repository contains the submission for **Task 1**, which focuses on understanding a dataset, identifying various data types, and evaluating its suitability for Machine Learning. The task emphasizes **Exploratory Data Analysis (EDA)** and data quality assessment before model development.
+
+---
+
+## 📁 Dataset Overview
+- **Dataset Name:** Titanic Dataset  
+- **Description:**  
+  The Titanic dataset contains passenger details such as age, gender, passenger class, fare, and survival status. It is a widely used dataset for learning data analysis and machine learning fundamentals.
+
+---
+
+## 🛠 Tools & Technologies Used
+- Python  
+- Pandas  
+- NumPy  
+- Jupyter Notebook / Google Colab  
+- GitHub  
+
+---
+
+## 🎯 Objectives
+The objectives of this task are to:
+- Understand the dataset structure and characteristics  
+- Identify numerical, categorical, ordinal, and binary features  
+- Analyze data types, missing values, and statistical summaries  
+- Identify the target variable and input features  
+- Evaluate the dataset’s readiness for Machine Learning  
+
+---
+
+## 🔍 Methodology
+The following steps were performed during the analysis:
+1. Loaded the dataset using Pandas  
+2. Viewed the first and last few records  
+3. Examined dataset dimensions  
+4. Identified feature types:
+   - Numerical features  
+   - Categorical features  
+   - Binary features  
+   - Ordinal features (where applicable)  
+5. Used `df.info()` to analyze data types and missing values  
+6. Used `df.describe()` to generate statistical summaries  
+7. Explored unique values in categorical columns  
+8. Identified the target variable and input features  
+9. Analyzed target variable distribution to check class imbalance  
+10. Documented data quality issues and observations  
+
+---
+
+## 🎯 Target Variable
+- **Column Name:** `Survived`  
+- **Type:** Binary Classification  
+  - `0` → Did not survive  
+  - `1` → Survived  
+
+---
+
+## 📌 Key Observations
+- The dataset contains both numerical and categorical features  
+- Missing values are present in columns such as `Age` and `Cabin`  
+- The target variable shows class imbalance  
+- The dataset size is suitable for beginner to intermediate ML tasks  
+- Data preprocessing is required before model training  
+
+---
+
+## 🤖 Machine Learning Readiness
+The dataset is suitable for Machine Learning after performing the following preprocessing steps:
+- Handling missing values  
+- Encoding categorical variables  
+- Feature scaling (if required)  
+- Addressing class imbalance  
+
+---
+
+## 📂 Repository Structure
 
 ├── task1_data_understanding.ipynb
 ├── Titanic-Dataset.csv
 └── README.md
-📘 Learning Outcomes
-Through this task, the following skills were strengthened:
-Dataset exploration and structural analysis
-Understanding data types and feature roles
-Recognizing data quality issues
-Appreciating the importance of EDA before modeling
+---
+
+## 📘 Learning Outcome
+This task helped in developing a strong understanding of:
+- Dataset exploration and structure analysis  
+- Importance of data understanding before modeling  
+- Identifying data quality issues affecting ML performance
